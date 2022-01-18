@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 38,
+    "height" : 28
+  }, {
+    "width" : 75,
+    "height" : 56
+  }, {
+    "width" : 150,
+    "height" : 112
+  }, {
+    "width" : 300,
+    "height" : 224
+  }, {
+    "width" : 600,
+    "height" : 447
+  }, {
+    "width" : 1200,
+    "height" : 893
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1200,
+  "@id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/EAP264_1_8_17_8",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 893
+}
