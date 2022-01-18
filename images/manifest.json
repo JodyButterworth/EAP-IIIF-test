@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 1895,
+    "id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/Kimono_f7/canvas/",
+    "label" : {
+      "none" : [ "Kimono_f7" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/Kimono_f7/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/Kimono_f7/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 60,
+              "height" : 30
+            }, {
+              "width" : 119,
+              "height" : 59
+            }, {
+              "width" : 237,
+              "height" : 118
+            }, {
+              "width" : 474,
+              "height" : 235
+            }, {
+              "width" : 948,
+              "height" : 469
+            }, {
+              "width" : 1895,
+              "height" : 937
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1895,
+            "@id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/Kimono_f7",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 937
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1895,
+          "id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/Kimono_f7/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 937
+        },
+        "target" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/Kimono_f7/canvas/"
+      } ]
+    } ],
+    "height" : 937
+  }, {
+    "width" : 1895,
     "id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/Kimono_f4/canvas/",
     "label" : {
       "none" : [ "Kimono_f4" ]
