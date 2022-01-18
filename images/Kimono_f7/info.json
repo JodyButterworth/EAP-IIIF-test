@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 60,
+    "height" : 30
+  }, {
+    "width" : 119,
+    "height" : 59
+  }, {
+    "width" : 237,
+    "height" : 118
+  }, {
+    "width" : 474,
+    "height" : 235
+  }, {
+    "width" : 948,
+    "height" : 469
+  }, {
+    "width" : 1895,
+    "height" : 937
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1895,
+  "@id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/Kimono_f7",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 937
+}
