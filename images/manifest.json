@@ -1,0 +1,66 @@
+{
+  "id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in JodyButterworth/EAP-IIIF-test project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1200,
+    "id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/EAP264_1_8_17_37/canvas/",
+    "label" : {
+      "none" : [ "EAP264_1_8_17_37" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/EAP264_1_8_17_37/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/EAP264_1_8_17_37/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 38,
+              "height" : 28
+            }, {
+              "width" : 75,
+              "height" : 55
+            }, {
+              "width" : 150,
+              "height" : 109
+            }, {
+              "width" : 300,
+              "height" : 217
+            }, {
+              "width" : 600,
+              "height" : 434
+            }, {
+              "width" : 1200,
+              "height" : 868
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1200,
+            "@id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/EAP264_1_8_17_37",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 868
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1200,
+          "id" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/EAP264_1_8_17_37/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 868
+        },
+        "target" : "https://JodyButterworth.github.io/EAP-IIIF-test/images/EAP264_1_8_17_37/canvas/"
+      } ]
+    } ],
+    "height" : 868
+  } ]
+}
