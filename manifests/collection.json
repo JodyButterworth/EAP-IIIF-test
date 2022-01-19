@@ -1,0 +1,13 @@
+{
+  "id" : "https://JodyButterworth.github.io/EAP-IIIF-test/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in JodyButterworth/EAP-IIIF-test project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JodyButterworth.github.io/EAP-IIIF-test/manifests/tiger_manifest.json",
+    "label" : "[Click to edit label]"
+  } ]
+}
