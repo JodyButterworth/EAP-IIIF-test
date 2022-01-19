@@ -1,0 +1,113 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://JodyButterworth.github.io/EAP-IIIF-test/manifests/tiger_manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://5c6bb9fa-3d36-42ad-a7b6-0f98a35ad0f7",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://0ffa89b5-9764-47ae-a6f2-e4fe3347286f",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2000,
+      "width" : 3008,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1abb0821-bcca-4dc1-a2d6-cfb6d7ed78f3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.eap.bl.uk/EAP217/EAP217_1_5/8.jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.eap.bl.uk/EAP217/EAP217_1_5/8.jp2",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 2000,
+          "width" : 3008
+        },
+        "on" : "http://0ffa89b5-9764-47ae-a6f2-e4fe3347286f"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7afd55e7-fd67-41fe-a1bd-ca8b4107978e",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2000,
+      "width" : 3008,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9a528228-d47e-40c5-ae42-85077c129528",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.eap.bl.uk/EAP217/EAP217_1_5/12.jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.eap.bl.uk/EAP217/EAP217_1_5/12.jp2",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 2000,
+          "width" : 3008
+        },
+        "on" : "http://7afd55e7-fd67-41fe-a1bd-ca8b4107978e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://fc926d2e-291b-43e0-9b79-e15bc986af40",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2000,
+      "width" : 3008,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f00ea9d0-68e4-4826-bec8-58bcb71b4248",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.eap.bl.uk/EAP217/EAP217_1_5/16.jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.eap.bl.uk/EAP217/EAP217_1_5/16.jp2",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 2000,
+          "width" : 3008
+        },
+        "on" : "http://fc926d2e-291b-43e0-9b79-e15bc986af40"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
